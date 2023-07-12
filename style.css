@@ -1,0 +1,288 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Courgette&family=Gloria+Hallelujah&family=Indie+Flower&family=Kalam:wght@300;400&family=Karla:ital,wght@1,300&family=Lobster&family=Merriweather:wght@700&family=Patua+One&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Spray+Paint&family=Rubik:wght@300&family=Sevillana&family=Slabo+27px&family=Sniglet&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header a
+{
+    font-family: 'Sniglet', cursive;
+    font-size: 18px;
+    color: whitesmoke;
+    
+
+}
+header{
+    background-image: url(./image/purpletreephoto-6-1200x800.jpg);
+    width: 100%;
+    height: 600px;
+    
+    font-weight: bold;
+    color: whitesmoke;
+    
+    }
+
+    .dropdown-menu
+    {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 2px 15px 0px rgba(0, 0, 0,0.2);
+        z-index: 1;
+    }
+    .dropdown-menu a
+    {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+
+    }
+
+    .dropdown-menu a:hover
+    {
+       background-color:black;
+       color: white;
+
+    }
+
+    .dropdown:hover .dropdown-menu
+    {
+        display: block;
+    }
+
+
+    header .nav-item:last-child
+    {
+        padding-right: 8.5em;
+    }
+
+    header .nav-item
+    {
+        padding: 10px;
+       
+    }
+
+
+    .logoh1 {
+        font-family: 'Courgette', cursive;
+        padding-left: 15px;
+        padding-top: 0px;
+        font-size:x-large;
+        
+    }
+    
+    .logospan {
+        color:cadetblue;
+        font-family: 'Courgette', cursive;
+        font-size: larger;
+        
+    }
+    .logospan:hover{
+        color: black;
+    }
+
+ header .navbar-brand
+ {
+    padding-left: 3rem;
+ }
+
+ header .navbar-brand:hover
+ {
+    color: cadetblue;
+ }
+
+ header .nav-link:hover
+ {
+    color:cadetblue;
+ }
+ header .row .col-md-5
+ {
+    padding: 45vmin 1vmin;
+    color: black;
+    padding-bottom: 35vmin;
+    padding-right: 25vmin;
+
+    font-family: 'Acme', sans-serif;
+    font-size: medium;
+   
+ }
+    
+
+ /* section 1 */
+
+ .section-1
+ {
+    padding:20vmin 0;
+ }
+
+ .section-1 .row .col-md-6 .pray img
+ {
+    width: 100%;
+    border-radius: 0.8em;
+    
+ }
+
+ .section-1 .row .col-md-6:last-child
+ {
+    position: relative;
+ }
+ .section-1 .row .col-md-6 .panel
+ {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background-color: white;
+    border-radius: 5px;
+    text-align: left;
+    justify-content: left;
+    font-family: 'Rubik', sans-serif;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0,0.2);
+    z-index: 1;  
+ }
+ .section-1 .row .col-md-6 .panel h2
+ {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+    
+ }
+
+ .section-1 .row .col-md-6 .panel p
+ {
+    font-size: 0.9em;
+    color: gray;
+ }
+
+.cover
+{
+    width: 100%;
+    height: 65vmin;
+    background-image: url(./image/back333.jpg);
+    
+}
+
+.cover .content
+{
+    background: rgba(0, 0, 0,0.2);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+    padding-bottom: 10vmin;
+    
+}
+.cover .content>h1
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 7vmin;
+}
+.cover .content>p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5vmin;
+
+}
+
+.cover .content .a:hover{
+ color: black;
+}
+
+.cards .card{
+    width: 22rem;
+    margin: 3vmin;
+    
+}
+
+.cards div{
+
+   padding: 0;
+   margin: 0; 
+}
+
+.cards .card .title
+{
+    padding: 1.2rem 1rem;
+    
+    text-align: center;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.cards  .card .card-text
+{
+    padding: 0.5rem 1rem;
+    color: rgb(36, 34, 34);
+}
+
+.cards .card .card-body>a{
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    
+}
+
+.border-radius{
+    border-radius: 70px;
+    width: 100%;
+}
+
+/* section-4 */
+
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team
+{
+padding: 8vmin 4vmin;
+}
+
+.section-4 .card
+{
+    width: 22rem;
+    margin-top: 8vmin;
+}
+
+.section-4 .carousal-item
+{
+    padding-left: 3rem;
+}
+
+.section-4 h1
+{
+    font-size: larger;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+
+}
+.section-4 p{
+    font-size: 2.5vmin;
+   padding-left: 25%;
+   padding-right: 25%;
+   padding-top: 10px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgba(0, 0, 0,0.9);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+    color: whitesmoke;
+}
+
+footer p {
+    color: whitesmoke;
+}
+ footer .column i{
+    color: rgb(243, 240, 240);
+ }
+ footer .column i + i
+ {
+    padding: 0 0.5em;
+ }
